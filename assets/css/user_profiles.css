@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css?family=Righteous");
+@import url("https://fonts.googleapis.com/css?family=Exo+2:400,900");
+
+.btn {
+  margin-right: 10px;
+}
+
+.card-deck {
+  padding: 10px;
+}
+
+.card {
+  padding: 0;
+  margin: 0;
+}
+
+.card-body {
+  padding: 10px;
+  margin: 0;
+}
+
+.card-text {
+  margin: 0;
+  padding: 0;
+}
+
+#epage-user-profiles, #epage-system-users{
+  padding: 15px;
+}
+
+.ebootboxModal {
+  color: black;
+  background-color: #242630;
+}

@@ -1,0 +1,20 @@
+.epage-container {
+  padding: 15px;
+}
+
+.eform-container {
+  padding: 15px;
+}
+
+.ebtn {
+  margin: 10px;
+}
+
+.eimg-container {
+  padding: 20px 10px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.form-check {
+  margin-left: 10px;
+}

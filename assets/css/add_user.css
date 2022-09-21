@@ -1,0 +1,24 @@
+
+#es-help-text {
+  color: #bbb7b7;
+  padding-top: 10px;
+  border-style: solid;
+  border-radius: 10px;
+}
+
+#es-help-text ul > li {
+  font-style: bold;
+  color: #fff;
+}
+
+.epage-container {
+  padding: 15px;
+}
+
+.eform-container {
+  padding: 15px;
+}
+
+input:disabled {
+  color: greenyellow;
+}

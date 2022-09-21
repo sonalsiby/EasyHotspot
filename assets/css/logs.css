@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css?family=Righteous");
+@import url("https://fonts.googleapis.com/css?family=Exo+2:400,900");
+.ecard-orange {
+  background-color: #5e4502;
+}
+
+.ecard-magenta {
+  background-color: #6b0538;
+}
+
+.ecard-blue {
+  background-color: #1b940b;
+}
+
+.ecard-red {
+  background-color: #af2d2d;
+}
+
+#es-help-text {
+  color: #bbb7b7;
+  padding-top: 10px;
+  border-style: solid;
+  border-radius: 10px;
+}
+
+#es-help-text ul > li {
+  font-style: bold;
+  color: #fff;
+}
+
+#epage-logs {
+  padding: 10px;
+  overflow-x: auto;
+}
+
+#edraw-logs {
+  margin: 10px;
+}

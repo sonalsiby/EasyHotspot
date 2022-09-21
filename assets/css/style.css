@@ -1,0 +1,350 @@
+@import url("https://fonts.googleapis.com/css?family=Righteous");
+@import url("https://fonts.googleapis.com/css?family=Exo+2:400,900");
+.ecard-orange {
+  background-color: #5e4502;
+}
+
+.ecard-magenta {
+  background-color: #6b0538;
+}
+
+.ecard-blue {
+  background-color: #1b940b;
+}
+
+.ecard-red {
+  background-color: #af2d2d;
+}
+
+#es-help-text {
+  color: #bbb7b7;
+  padding-top: 10px;
+  border-style: solid;
+  border-radius: 10px;
+}
+
+#es-help-text ul > li {
+  font-style: bold;
+  color: #fff;
+}
+
+header {
+  width: 100%;
+  position: fixed;
+  z-index: 9999;
+  background-color: #1c0e3d;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Exo 2", sans-serif;
+  color: white;
+  background-color: #23265e;
+}
+
+.eactive {
+  opacity: 0.7;
+  background-color: #3f4246;
+}
+
+.esub-item.eactive {
+  background-color: #242630;
+}
+
+.epull-right {
+  float: right;
+}
+
+.eline-separator {
+  height: 1px;
+  background: #717171;
+  border-bottom: 1px solid #313030;
+}
+
+.elogo-panel {
+  padding: 10px;
+}
+
+.elogo-img {
+  width: 30px;
+  height: 30px;
+}
+
+.elogo-title {
+  color: white;
+  font-family: "Righteous", cursive;
+  font-size: 25px;
+  padding: 5px;
+}
+
+.euser-img-container {
+  position: relative;
+  display: inline-block;
+  float: right;
+  height: 10vw;
+  width: 10vw;
+  max-height: 39px;
+  max-width: 39px;
+  min-height: 30px;
+  min-width: 30px;
+  overflow: hidden;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.euser-img {
+  height: 39px;
+}
+
+.epage-title {
+  width: 100%;
+  text-align: center;
+}
+
+.esidenav {
+  left: 0;
+  width: 60vw;
+  z-index: 9997;
+  max-width: 190px;
+  height: 89%;
+  padding: 0px;
+  display: block;
+  position: fixed;
+  transition: 0.5s;
+  overflow-x: hidden;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+  background-color: #242630;
+}
+
+.esidenav .fas {
+  width: 20px;
+  margin-right: 10px;
+}
+
+.esidenav-item {
+  display: block;
+  width: 100%;
+  font-size: 15px;
+  color: white;
+  text-align: left;
+}
+
+.esidenav-item :hover {
+  color: #c9c4c4;
+  background-color: #3f4246;
+}
+
+.esidenav-item a {
+  margin: 0;
+  width: 100%;
+  height: 40px;
+  display: block;
+  transition: 0.4s;
+  text-decoration: none;
+  text-align: left;
+  padding-left: 10px;
+  padding-top: 8px;
+  white-space: nowrap;
+  color: white;
+}
+
+.esidenav-dropdown {
+  display: block;
+  width: 100%;
+  height: fit-content;
+  font-size: 15px;
+  color: white;
+  text-align: center;
+}
+
+.esidenav-sub {
+  background-color: #3f4246;
+  height: 0px;
+  width: 100%;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  transition: height 0.5s;
+  padding-left: 20px;
+}
+
+.esidenav-item .esub-item {
+  font-weight: bold;
+  height: 30px;
+  padding: 0px;
+}
+
+.enotepath {
+  width: 100%;
+  height: 40px;
+  position: fixed;
+  z-index: 9998;
+  background-color: #242630;
+}
+
+.ebody-canvas {
+  width: 100%;
+  margin-left: 190px;
+  margin-right: 10px;
+  transition: margin-left 0.5s;
+}
+
+.etogglenav {
+  padding: 8px;
+  height: 100%;
+  font-size: 20px;
+  color: white;
+  background-color: #3f4246;
+  transition: 0.2s;
+}
+
+#etogglenav :hover {
+  opacity: 0.5;
+}
+
+.euser-panel {
+  margin: 0px;
+  padding: 0px;
+  padding-top: 5px;
+}
+
+.euser-item {
+  margin-right: 10px;
+  height: 35px;
+}
+
+#enotify, #ehelp {
+  margin-right: 20px;
+  color: white;
+}
+
+.euser-item a {
+  margin: 0;
+  display: block;
+  height: 100%;
+  text-decoration: none;
+  color: white;
+}
+
+.euser-item :hover {
+  color: #c9c4c4;
+  background-color: #3f4246;
+}
+
+.edropdown-container {
+  margin: 0px;
+  padding: 0px;
+  display: block;
+  list-style: none;
+}
+
+.edropdown-sub {
+  position: absolute;
+  height: 0px;
+  padding: 0px;
+  margin: 0;
+  width: 200px;
+  list-style: none;
+  padding-left: none;
+  overflow-y: hidden;
+  transition: height 0.3s;
+  background-color: #242630;
+}
+
+.edropdown-sub-expand-left {
+  right: 0.5vw;
+}
+
+.edropdown-sub-item {
+  height: 35px;
+  padding-left: 5px;
+}
+
+.edropdown-sub-item .fas {
+  margin: 4px;
+  margin-right: 10px;
+  width: 20px;
+}
+
+.epage {
+  transition: 0.3s;
+}
+
+.emeter {
+  display: block;
+  height: 0px;
+  z-index: 9993;
+}
+
+.emeter-needle {
+  display: block;
+  height: 100%;
+  width: 50%;
+  background-color: white;
+  transition: 0.5s;
+}
+
+.edraw-area {
+  height: 100%;
+  margin-bottom: 40px;
+  padding: 0;
+  padding-left: 20px;
+}
+
+.eloader {
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: 100px;
+  height: 100px;
+  margin: -50px 0 0 -50px;
+  border: 10px solid #ffffff;
+  border-left: 10px solid #c50e08;
+  border-right: 10px solid #0084ff;
+  border-top: 10px solid #09e71c;
+  border-bottom: 10px solid #d2ff09;
+  border-radius: 50%;
+  width: 6vw;
+  height: 6vw;
+  transition: 0.6s;
+  -webkit-animation: spin 1.7s linear infinite;
+  animation: spin 1.7s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  z-index: 9996;
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  color: white;
+  background-color: #1c0e3d;
+}
