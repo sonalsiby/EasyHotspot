@@ -11,3 +11,7 @@ To try out the application:
 5. Give any username and password and click login
 6. It'll say user doesn't exist, but the database and tables are created now.
 7. Now login with username "admin" and password "admin"
+
+I haven't been acively developing this project. If you think it's still worth it, please let me know. I will find more time to contribute.
+
+Thank you.
